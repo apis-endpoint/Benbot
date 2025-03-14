@@ -1,0 +1,2 @@
+# List of stored video links
+# Format: https://apisnothing.vercel.app/files/FILENAME.mp4 -> DOWNLOAD_URL
