@@ -1,10 +1,16 @@
 {
   "nothing-api": {
-    "limit": "Infinity", 
+    "limit": "Infinity",
     "users": {}
   },
   "ben-md": {
     "limit": 500,
-    "users": {}
+    "users": {
+      "203.171.112.99": {
+        "used": 1,
+        "lastReset": 1742019578577,
+        "resetTime": "2025-03-16T06:19:38.577Z"
+      }
+    }
   }
 }
