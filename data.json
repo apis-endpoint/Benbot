@@ -263,5 +263,14 @@
       "used": 0,
       "lastReset": 1742057676545
     }
+  },
+  "Freezer": {
+    "password": "Iconicfreezer1$",
+    "apikey": "NOTHING-g9vrkvorxc",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742062085254
+    }
   }
 }
