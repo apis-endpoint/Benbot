@@ -152,7 +152,7 @@
     "apikey": "NOTHING-y7920vgvzq",
     "apiLimits": {
       "limit": 200,
-      "used": 0,
+      "used": 1,
       "lastReset": 1742045517740
     }
   },
