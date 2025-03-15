@@ -110,5 +110,14 @@
       "used": 0,
       "lastReset": 1742044070920
     }
+  },
+  "Laksidu ": {
+    "password": "laksidu",
+    "apikey": "NOTHING-p9tlks3l0t",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742044205373
+    }
   }
 }
