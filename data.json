@@ -254,5 +254,14 @@
       "used": 0,
       "lastReset": 1742055743178
     }
+  },
+  "okkkkk": {
+    "password": "0987654321",
+    "apikey": "NOTHING-yem8c4zwi1",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742057676545
+    }
   }
 }
