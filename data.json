@@ -251,7 +251,7 @@
     "apikey": "NOTHING-3hesc87j9e",
     "apiLimits": {
       "limit": 200,
-      "used": 0,
+      "used": 1,
       "lastReset": 1742055743178
     }
   },
