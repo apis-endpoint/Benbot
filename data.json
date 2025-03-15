@@ -53,7 +53,7 @@
     "apikey": "NOTHING-uem56i6dc5",
     "apiLimits": {
       "limit": 200,
-      "used": 0,
+      "used": 1,
       "lastReset": 1742041211152
     }
   }
