@@ -245,5 +245,14 @@
       "used": 0,
       "lastReset": 1742054409248
     }
+  },
+  "pr": {
+    "password": "123",
+    "apikey": "NOTHING-3hesc87j9e",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742055743178
+    }
   }
 }
