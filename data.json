@@ -137,5 +137,14 @@
       "used": 2,
       "lastReset": 1742044714112
     }
+  },
+  "mary": {
+    "password": "jane",
+    "apikey": "NOTHING-hqdx9b1lza",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742045046146
+    }
   }
 }
