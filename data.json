@@ -179,7 +179,7 @@
     "apikey": "NOTHING-rsatsr6evk",
     "apiLimits": {
       "limit": 200,
-      "used": 0,
+      "used": 1,
       "lastReset": 1742048414693
     }
   }
