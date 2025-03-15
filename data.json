@@ -209,5 +209,14 @@
       "used": 0,
       "lastReset": 1742051723122
     }
+  },
+  "mmm": {
+    "password": "mm",
+    "apikey": "NOTHING-uoaprfazij",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742051798628
+    }
   }
 }
