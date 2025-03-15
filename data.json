@@ -128,5 +128,14 @@
       "used": 0,
       "lastReset": 1742044367337
     }
+  },
+  "mrfrank": {
+    "password": "mrfrank",
+    "apikey": "NOTHING-tytb67z75v",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742044714112
+    }
   }
 }
