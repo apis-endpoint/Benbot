@@ -119,5 +119,14 @@
       "used": 0,
       "lastReset": 1742044205373
     }
+  },
+  "Gladi": {
+    "password": "icz@&-j.9r-.E67",
+    "apikey": "NOTHING-5dk7ozh0si",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742044367337
+    }
   }
 }
