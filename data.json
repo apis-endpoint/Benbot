@@ -74,5 +74,14 @@
       "used": 0,
       "lastReset": 1742043696255
     }
+  },
+  "SASIYA": {
+    "password": "SASIYA99",
+    "apikey": "NOTHING-69mekjy6kv",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742043805969
+    }
   }
 }
