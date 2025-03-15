@@ -236,5 +236,14 @@
       "used": 0,
       "lastReset": 1742053734965
     }
+  },
+  "Khalil khan": {
+    "password": "khalil800876",
+    "apikey": "NOTHING-33qlokxxau",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742054409248
+    }
   }
 }
