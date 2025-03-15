@@ -1,1 +1,10 @@
-[]
+{
+  "nothing-api": {
+    "limit": "Infinity", 
+    "users": {}
+  },
+  "ben-md": {
+    "limit": 500,
+    "users": {}
+  }
+}
