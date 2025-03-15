@@ -155,5 +155,14 @@
       "used": 0,
       "lastReset": 1742045517740
     }
+  },
+  "Caseyweb ": {
+    "password": "kibe@2030",
+    "apikey": "NOTHING-tmbd8hj576",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742046409304
+    }
   }
 }
