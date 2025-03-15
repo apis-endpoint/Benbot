@@ -218,5 +218,14 @@
       "used": 0,
       "lastReset": 1742051798628
     }
+  },
+  "Venom": {
+    "password": "v20_eno91m",
+    "apikey": "NOTHING-gm7vudtx0j",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742051815774
+    }
   }
 }
