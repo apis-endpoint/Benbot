@@ -38,5 +38,14 @@
       "used": 0,
       "lastReset": 1742039749301
     }
+  },
+  "amirkhan": {
+    "password": "nothing-ap",
+    "apikey": "NOTHING-k9w82mhej1",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742040779367
+    }
   }
 }
