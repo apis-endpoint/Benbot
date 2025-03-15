@@ -56,5 +56,14 @@
       "used": 3,
       "lastReset": 1742041211152
     }
+  },
+  "PASINDU2": {
+    "password": "JAYASUNDARA2009",
+    "apikey": "NOTHING-xl5lqmcatz",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742043685271
+    }
   }
 }
