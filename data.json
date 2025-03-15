@@ -29,5 +29,14 @@
       "used": 0,
       "lastReset": 1742039580358
     }
+  },
+  "khanamir": {
+    "password": "kingamir",
+    "apikey": "NOTHING-2lgdmkmvkm",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742039749301
+    }
   }
 }
