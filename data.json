@@ -65,5 +65,14 @@
       "used": 0,
       "lastReset": 1742043685271
     }
+  },
+  "Rayees": {
+    "password": "Rayees@001",
+    "apikey": "NOTHING-4c2322ota9",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742043696255
+    }
   }
 }
