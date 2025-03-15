@@ -146,5 +146,14 @@
       "used": 0,
       "lastReset": 1742045046146
     }
+  },
+  "sandarux": {
+    "password": "sandaru@1234",
+    "apikey": "NOTHING-y7920vgvzq",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742045517740
+    }
   }
 }
