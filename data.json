@@ -92,5 +92,14 @@
       "used": 0,
       "lastReset": 1742043841713
     }
+  },
+  "saminda": {
+    "password": "Sanju2003#",
+    "apikey": "NOTHING-pw4fdrsk3u",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742043921897
+    }
   }
 }
