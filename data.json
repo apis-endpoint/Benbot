@@ -200,5 +200,14 @@
       "used": 0,
       "lastReset": 1742050488705
     }
+  },
+  "mohammad": {
+    "password": "khafig",
+    "apikey": "NOTHING-ysjzptiium",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742051723122
+    }
   }
 }
