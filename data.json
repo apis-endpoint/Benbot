@@ -47,5 +47,14 @@
       "used": 0,
       "lastReset": 1742040779367
     }
+  },
+  "khanzj": {
+    "password": "ksjsjshw",
+    "apikey": "NOTHING-uem56i6dc5",
+    "apiLimits": {
+      "limit": 200,
+      "used": 0,
+      "lastReset": 1742041211152
+    }
   }
 }
