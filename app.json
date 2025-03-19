@@ -1,0 +1,20 @@
+{
+  "name": "qr-code",
+  "description": "Simple pair web and qr code web",
+  "logo": "https://files.catbox.moe/4i7dp7.jpg",
+  "keywords": ["bot", "WhatsApp", "JavaScript"],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "TECH": {
+      "description": "JUST CLICK DEPOLY",
+      "value": "CLICK",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}

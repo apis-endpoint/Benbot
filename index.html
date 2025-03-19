@@ -1,0 +1,314 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEN BOT V1 - ULTIMATE</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+        :root {
+            --neon-blue: #00f3ff;
+            --neon-pink: #ff00ff;
+            --cyber-black: #0a0a1a;
+            --cyber-gray: #1a1a2e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        body {
+            background: var(--cyber-black);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .cyber-grid {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-image: 
+                linear-gradient(rgba(0, 243, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 243, 255, 0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+            z-index: 0;
+        }
+
+
+
+    .main-container {
+        background: rgba(16, 18, 27, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        padding: 3rem;
+        margin: 2rem;
+        border: 2px solid var(--neon-blue);
+        box-shadow: 0 0 50px rgba(0, 243, 255, 0.2);
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+        width: 90%;
+        animation: floatContainer 4s ease-in-out infinite; /* මෙය එක් කරන්න */
+    }
+    @keyframes floatContainer {
+        0%, 100% { 
+            transform: translateY(0) rotate(0deg);
+            box-shadow: 0 0 50px rgba(0, 243, 255, 0.2);
+        }
+        25% { 
+            transform: translateY(-15px) rotate(-1.5deg);
+            box-shadow: 0 15px 60px rgba(0, 243, 255, 0.3);
+        }
+        50% { 
+            transform: translateY(10px) rotate(1.5deg);
+            box-shadow: 0 -10px 60px rgba(0, 243, 255, 0.3);
+        }
+        75% { 
+            transform: translateY(-5px) rotate(0.5deg);
+            box-shadow: 0 5px 60px rgba(0, 243, 255, 0.3);
+        }
+    }
+
+
+        .cyber-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .cyber-header h1 {
+            color: var(--neon-blue);
+            font-size: 3.5rem;
+            text-shadow: 0 0 30px var(--neon-blue);
+            letter-spacing: 3px;
+            margin-bottom: 1rem;
+            animation: titleGlow 2s infinite alternate;
+        }
+
+        @keyframes titleGlow {
+            from { text-shadow: 0 0 20px var(--neon-blue); }
+            to { text-shadow: 0 0 40px var(--neon-blue); }
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem 0;
+        }
+
+        .cyber-btn {
+    position: relative;
+    padding: 1.5rem 2rem;
+    background: var(--cyber-gray);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    overflow: hidden;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    animation: buttonFloat 3s ease-in-out infinite;
+}
+
+@keyframes buttonFloat {
+    0%, 100% { 
+        transform: translateY(0) rotate(0deg);
+    }
+    25% { 
+        transform: translateY(-3px) rotate(-0.5deg); 
+    }
+    50% { 
+        transform: translateY(2px) rotate(0.5deg); 
+    }
+    75% { 
+        transform: translateY(-1px) rotate(0deg); 
+    }
+}
+
+.cyber-btn:hover {
+    animation: buttonHover 0.5s ease-out forwards;
+    z-index: 2;
+}
+
+@keyframes buttonHover {
+    0% { 
+        transform: scale(1) translateY(0); 
+        box-shadow: 0 0 15px var(--neon-blue);
+    }
+    50% { 
+        transform: scale(1.05) translateY(-5px); 
+        box-shadow: 0 5px 25px var(--neon-pink);
+    }
+    100% { 
+        transform: scale(1.03) translateY(-2px); 
+        box-shadow: 0 2px 20px var(--neon-blue);
+    }
+}
+
+        .cyber-btn::before {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            background: linear-gradient(45deg, var(--neon-blue), var(--neon-pink), var(--neon-blue));
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .cyber-btn:hover::before {
+            opacity: 1;
+        }
+
+        .cyber-btn i {
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .cyber-btn:hover i {
+            transform: scale(1.2);
+            filter: drop-shadow(0 0 5px var(--neon-blue));
+        }
+
+        .error-btn {
+            background: rgba(255, 50, 50, 0.15);
+        }
+
+        .error-btn::before {
+            background: linear-gradient(45deg, #ff0000, #ff6b6b);
+        }
+
+        .particle {
+            position: absolute;
+            pointer-events: none;
+            background: var(--neon-blue);
+            border-radius: 50%;
+            animation: particlePop 1s forwards;
+        }
+
+        @keyframes particlePop {
+            0% { transform: scale(0); opacity: 1; }
+            100% { transform: scale(3); opacity: 0; }
+        }
+
+        .cyber-footer {
+            margin-top: 3rem;
+            color: var(--neon-blue);
+            text-align: center;
+            font-size: 1rem;
+            text-shadow: 0 0 10px var(--neon-blue);
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                padding: 1.5rem;
+                margin: 1rem;
+            }
+            
+            .cyber-header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .cyber-btn {
+                font-size: 1rem;
+                padding: 1rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cyber-grid"></div>
+
+    <div class="main-container">
+        <header class="cyber-header">
+            <h1>
+                <i class="fas fa-robot"></i>
+                BEN BOT V1
+            </h1>
+            <p style="color: var(--neon-pink); font-size: 1.2rem;">Ultimate Session Manager</p>
+        </header>
+
+        <div class="button-grid">
+            <a href="/qr" class="cyber-btn" target="_blank">
+                <i class="fas fa-qrcode"></i>
+                QR-CODE
+            </a>
+
+            <a href="/pair" class="cyber-btn" target="_blank">
+                <i class="fas fa-handshake"></i>
+                PAIRING-CODE
+            </a>
+
+            <a href="https://youtu.be/a7fq-Oua0Sw?si=9S1MhEqEcyECHPrm" class="cyber-btn" target="_blank">
+                <i class="fab fa-youtube"></i>
+                BOT DEPOLY VIDEO
+            </a>
+                    
+                     
+            <a href="https://github.com/NOTHING-MD420/Ben-bot" class="cyber-btn" target="_blank">
+                <i class="fab fa-download"></i>
+                BEN BOT GITHUB
+            </a>
+
+
+
+            <a href="https://whatsapp.com/channel/0029Vasu3qP9RZAUkVkvSv32" class="cyber-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                WA-CHANNEL
+            </a>
+
+            <a href="https://wa.me/+93744215959?text=HAVE_ERROR_BEN-BOT" class="cyber-btn error-btn" target="_blank">
+                <i class="fas fa-bug"></i>
+                ERROR
+            </a>
+
+            <a href="https://wa.me/+93744215959?text=HELLO-BEN-BOT-OWNER" class="cyber-btn" target="_blank">
+                <i class="fas fa-user-secret"></i>
+                OWNER
+            </a>
+        </div>
+    </div>
+
+    <footer class="cyber-footer">
+        © 2025 BEN BOT | Powered by NOTHING TECH
+    </footer>
+
+    <script>
+        // Particle Animation
+        document.addEventListener('mousemove', (e) => {
+            const particles = document.createElement('div');
+            particles.className = 'particle';
+            particles.style.left = `${e.clientX}px`;
+            particles.style.top = `${e.clientY}px`;
+            document.body.appendChild(particles);
+            
+            setTimeout(() => particles.remove(), 1000);
+        });
+
+        // Hover Sound Effect
+        const buttons = document.querySelectorAll('.cyber-btn');
+        const hoverSound = new Audio('data:audio/wav;base64,UklGRl9vT19XQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YU');
+        
+        buttons.forEach(btn => {
+            btn.addEventListener('mouseenter', () => {
+                hoverSound.currentTime = 0;
+                hoverSound.play();
+            });
+        });
+
+        // Dynamic Year Update
+        document.querySelector('.cyber-footer').innerHTML += new Date().getFullYear();
+    </script>
+
+</body></html>
